@@ -1,159 +1,461 @@
 fileFormatVersion: 2
 guid: e4795bb6d52d57c44aee824a4ff99926
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: belly
-    100002: bellykontrol
-    100004: boventanden
-    100006: head
-    100008: hip
-    100010: hipkontrol
-    100012: jaw
-    100014: L_ankle
-    100016: L_ankle_kontrol
-    100018: L_arm
-    100020: L_elbow
-    100022: L_eye
-    100024: L_finger1
-    100026: L_finger2
-    100028: L_fingertip
-    100030: L_FOOT
-    100032: L_foot
-    100034: L_footkontrol
-    100036: L_knee
-    100038: L_leg
-    100040: L_leg_Pole
-    100042: L_OOG
-    100044: L_thumb1
-    100046: L_thumb2
-    100048: L_thumbtip
-    100050: L_toes
-    100052: L_toeskontrol
-    100054: L_wrist
-    100056: L_wristkontrol
-    100058: lip
-    100060: muktar
-    100062: muktar_2
-    100064: //RootNode
-    100066: n_Side
-    100068: Null
-    100070: Null_2
-    100072: Null_3
-    100074: Null_4
-    100076: Null_5
-    100078: ondertanden
-    100080: R_ankle
-    100082: R_ankle_kontrol
-    100084: R_arm
-    100086: R_elbow
-    100088: R_eye
-    100090: R_finger1
-    100092: R_finger2
-    100094: R_fingertip
-    100096: R_FOOT
-    100098: R_foot
-    100100: R_footkontrol
-    100102: R_knee
-    100104: R_leg
-    100106: R_leg_Pole
-    100108: R_oog
-    100110: R_thumb1
-    100112: R_thumb2
-    100114: R_thumbtip
-    100116: R_toes
-    100118: R_toeskontrol
-    100120: R_wrist
-    100122: R_wristkontrol
-    100124: shoulder
-    100126: shoulderkontrol
-    100128: spine
-    100130: top
-    400000: belly
-    400002: bellykontrol
-    400004: boventanden
-    400006: head
-    400008: hip
-    400010: hipkontrol
-    400012: jaw
-    400014: L_ankle
-    400016: L_ankle_kontrol
-    400018: L_arm
-    400020: L_elbow
-    400022: L_eye
-    400024: L_finger1
-    400026: L_finger2
-    400028: L_fingertip
-    400030: L_FOOT
-    400032: L_foot
-    400034: L_footkontrol
-    400036: L_knee
-    400038: L_leg
-    400040: L_leg_Pole
-    400042: L_OOG
-    400044: L_thumb1
-    400046: L_thumb2
-    400048: L_thumbtip
-    400050: L_toes
-    400052: L_toeskontrol
-    400054: L_wrist
-    400056: L_wristkontrol
-    400058: lip
-    400060: muktar
-    400062: muktar_2
-    400064: //RootNode
-    400066: n_Side
-    400068: Null
-    400070: Null_2
-    400072: Null_3
-    400074: Null_4
-    400076: Null_5
-    400078: ondertanden
-    400080: R_ankle
-    400082: R_ankle_kontrol
-    400084: R_arm
-    400086: R_elbow
-    400088: R_eye
-    400090: R_finger1
-    400092: R_finger2
-    400094: R_fingertip
-    400096: R_FOOT
-    400098: R_foot
-    400100: R_footkontrol
-    400102: R_knee
-    400104: R_leg
-    400106: R_leg_Pole
-    400108: R_oog
-    400110: R_thumb1
-    400112: R_thumb2
-    400114: R_thumbtip
-    400116: R_toes
-    400118: R_toeskontrol
-    400120: R_wrist
-    400122: R_wristkontrol
-    400124: shoulder
-    400126: shoulderkontrol
-    400128: spine
-    400130: top
-    4300000: L_OOG
-    4300002: R_oog
-    4300004: muktar_2
-    4300006: boventanden
-    4300008: ondertanden
-    7400000: C4D Animation Take
-    7400002: idle
-    7400004: walk
-    7400006: attack
-    7400008: fall
-    7400010: die
-    7400012: gothit
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: boventanden
-    13700002: L_OOG
-    13700004: muktar_2
-    13700006: ondertanden
-    13700008: R_oog
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: belly
+  - first:
+      1: 100002
+    second: bellykontrol
+  - first:
+      1: 100004
+    second: boventanden
+  - first:
+      1: 100006
+    second: head
+  - first:
+      1: 100008
+    second: hip
+  - first:
+      1: 100010
+    second: hipkontrol
+  - first:
+      1: 100012
+    second: jaw
+  - first:
+      1: 100014
+    second: L_ankle
+  - first:
+      1: 100016
+    second: L_ankle_kontrol
+  - first:
+      1: 100018
+    second: L_arm
+  - first:
+      1: 100020
+    second: L_elbow
+  - first:
+      1: 100022
+    second: L_eye
+  - first:
+      1: 100024
+    second: L_finger1
+  - first:
+      1: 100026
+    second: L_finger2
+  - first:
+      1: 100028
+    second: L_fingertip
+  - first:
+      1: 100030
+    second: L_FOOT
+  - first:
+      1: 100032
+    second: L_foot
+  - first:
+      1: 100034
+    second: L_footkontrol
+  - first:
+      1: 100036
+    second: L_knee
+  - first:
+      1: 100038
+    second: L_leg
+  - first:
+      1: 100040
+    second: L_leg_Pole
+  - first:
+      1: 100042
+    second: L_OOG
+  - first:
+      1: 100044
+    second: L_thumb1
+  - first:
+      1: 100046
+    second: L_thumb2
+  - first:
+      1: 100048
+    second: L_thumbtip
+  - first:
+      1: 100050
+    second: L_toes
+  - first:
+      1: 100052
+    second: L_toeskontrol
+  - first:
+      1: 100054
+    second: L_wrist
+  - first:
+      1: 100056
+    second: L_wristkontrol
+  - first:
+      1: 100058
+    second: lip
+  - first:
+      1: 100060
+    second: muktar
+  - first:
+      1: 100062
+    second: muktar_2
+  - first:
+      1: 100064
+    second: //RootNode
+  - first:
+      1: 100066
+    second: n_Side
+  - first:
+      1: 100068
+    second: Null
+  - first:
+      1: 100070
+    second: Null_2
+  - first:
+      1: 100072
+    second: Null_3
+  - first:
+      1: 100074
+    second: Null_4
+  - first:
+      1: 100076
+    second: Null_5
+  - first:
+      1: 100078
+    second: ondertanden
+  - first:
+      1: 100080
+    second: R_ankle
+  - first:
+      1: 100082
+    second: R_ankle_kontrol
+  - first:
+      1: 100084
+    second: R_arm
+  - first:
+      1: 100086
+    second: R_elbow
+  - first:
+      1: 100088
+    second: R_eye
+  - first:
+      1: 100090
+    second: R_finger1
+  - first:
+      1: 100092
+    second: R_finger2
+  - first:
+      1: 100094
+    second: R_fingertip
+  - first:
+      1: 100096
+    second: R_FOOT
+  - first:
+      1: 100098
+    second: R_foot
+  - first:
+      1: 100100
+    second: R_footkontrol
+  - first:
+      1: 100102
+    second: R_knee
+  - first:
+      1: 100104
+    second: R_leg
+  - first:
+      1: 100106
+    second: R_leg_Pole
+  - first:
+      1: 100108
+    second: R_oog
+  - first:
+      1: 100110
+    second: R_thumb1
+  - first:
+      1: 100112
+    second: R_thumb2
+  - first:
+      1: 100114
+    second: R_thumbtip
+  - first:
+      1: 100116
+    second: R_toes
+  - first:
+      1: 100118
+    second: R_toeskontrol
+  - first:
+      1: 100120
+    second: R_wrist
+  - first:
+      1: 100122
+    second: R_wristkontrol
+  - first:
+      1: 100124
+    second: shoulder
+  - first:
+      1: 100126
+    second: shoulderkontrol
+  - first:
+      1: 100128
+    second: spine
+  - first:
+      1: 100130
+    second: top
+  - first:
+      4: 400000
+    second: belly
+  - first:
+      4: 400002
+    second: bellykontrol
+  - first:
+      4: 400004
+    second: boventanden
+  - first:
+      4: 400006
+    second: head
+  - first:
+      4: 400008
+    second: hip
+  - first:
+      4: 400010
+    second: hipkontrol
+  - first:
+      4: 400012
+    second: jaw
+  - first:
+      4: 400014
+    second: L_ankle
+  - first:
+      4: 400016
+    second: L_ankle_kontrol
+  - first:
+      4: 400018
+    second: L_arm
+  - first:
+      4: 400020
+    second: L_elbow
+  - first:
+      4: 400022
+    second: L_eye
+  - first:
+      4: 400024
+    second: L_finger1
+  - first:
+      4: 400026
+    second: L_finger2
+  - first:
+      4: 400028
+    second: L_fingertip
+  - first:
+      4: 400030
+    second: L_FOOT
+  - first:
+      4: 400032
+    second: L_foot
+  - first:
+      4: 400034
+    second: L_footkontrol
+  - first:
+      4: 400036
+    second: L_knee
+  - first:
+      4: 400038
+    second: L_leg
+  - first:
+      4: 400040
+    second: L_leg_Pole
+  - first:
+      4: 400042
+    second: L_OOG
+  - first:
+      4: 400044
+    second: L_thumb1
+  - first:
+      4: 400046
+    second: L_thumb2
+  - first:
+      4: 400048
+    second: L_thumbtip
+  - first:
+      4: 400050
+    second: L_toes
+  - first:
+      4: 400052
+    second: L_toeskontrol
+  - first:
+      4: 400054
+    second: L_wrist
+  - first:
+      4: 400056
+    second: L_wristkontrol
+  - first:
+      4: 400058
+    second: lip
+  - first:
+      4: 400060
+    second: muktar
+  - first:
+      4: 400062
+    second: muktar_2
+  - first:
+      4: 400064
+    second: //RootNode
+  - first:
+      4: 400066
+    second: n_Side
+  - first:
+      4: 400068
+    second: Null
+  - first:
+      4: 400070
+    second: Null_2
+  - first:
+      4: 400072
+    second: Null_3
+  - first:
+      4: 400074
+    second: Null_4
+  - first:
+      4: 400076
+    second: Null_5
+  - first:
+      4: 400078
+    second: ondertanden
+  - first:
+      4: 400080
+    second: R_ankle
+  - first:
+      4: 400082
+    second: R_ankle_kontrol
+  - first:
+      4: 400084
+    second: R_arm
+  - first:
+      4: 400086
+    second: R_elbow
+  - first:
+      4: 400088
+    second: R_eye
+  - first:
+      4: 400090
+    second: R_finger1
+  - first:
+      4: 400092
+    second: R_finger2
+  - first:
+      4: 400094
+    second: R_fingertip
+  - first:
+      4: 400096
+    second: R_FOOT
+  - first:
+      4: 400098
+    second: R_foot
+  - first:
+      4: 400100
+    second: R_footkontrol
+  - first:
+      4: 400102
+    second: R_knee
+  - first:
+      4: 400104
+    second: R_leg
+  - first:
+      4: 400106
+    second: R_leg_Pole
+  - first:
+      4: 400108
+    second: R_oog
+  - first:
+      4: 400110
+    second: R_thumb1
+  - first:
+      4: 400112
+    second: R_thumb2
+  - first:
+      4: 400114
+    second: R_thumbtip
+  - first:
+      4: 400116
+    second: R_toes
+  - first:
+      4: 400118
+    second: R_toeskontrol
+  - first:
+      4: 400120
+    second: R_wrist
+  - first:
+      4: 400122
+    second: R_wristkontrol
+  - first:
+      4: 400124
+    second: shoulder
+  - first:
+      4: 400126
+    second: shoulderkontrol
+  - first:
+      4: 400128
+    second: spine
+  - first:
+      4: 400130
+    second: top
+  - first:
+      43: 4300000
+    second: L_OOG
+  - first:
+      43: 4300002
+    second: R_oog
+  - first:
+      43: 4300004
+    second: muktar_2
+  - first:
+      43: 4300006
+    second: boventanden
+  - first:
+      43: 4300008
+    second: ondertanden
+  - first:
+      74: 7400000
+    second: C4D Animation Take
+  - first:
+      74: 7400002
+    second: idle
+  - first:
+      74: 7400004
+    second: walk
+  - first:
+      74: 7400006
+    second: attack
+  - first:
+      74: 7400008
+    second: fall
+  - first:
+      74: 7400010
+    second: die
+  - first:
+      74: 7400012
+    second: gothit
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: boventanden
+  - first:
+      137: 13700002
+    second: L_OOG
+  - first:
+      137: 13700004
+    second: muktar_2
+  - first:
+      137: 13700006
+    second: ondertanden
+  - first:
+      137: 13700008
+    second: R_oog
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -161,7 +463,7 @@ ModelImporter:
       name: No Name
     second: {fileID: 2100000, guid: 20c755ee9276741c4a7882cc85401661, type: 2}
   materials:
-    importMaterials: 1
+    materialImportMode: 1
     materialName: 0
     materialSearch: 1
     materialLocation: 0
@@ -170,6 +472,7 @@ ModelImporter:
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -178,6 +481,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -189,23 +493,24 @@ ModelImporter:
     - serializedVersion: 16
       name: idle
       takeName: C4D Animation Take
+      internalID: 0
       firstFrame: 0
       lastFrame: 89
       wrapMode: 2
       orientationOffsetY: 0
-      level: 0
+      level: 0.01
       cycleOffset: 0
       loop: 1
       hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
       keepOriginalPositionXZ: 0
-      heightFromFeet: 0
+      heightFromFeet: 1
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
@@ -349,6 +654,7 @@ ModelImporter:
     - serializedVersion: 16
       name: walk
       takeName: C4D Animation Take
+      internalID: 0
       firstFrame: 91
       lastFrame: 150
       wrapMode: 2
@@ -509,6 +815,7 @@ ModelImporter:
     - serializedVersion: 16
       name: attack
       takeName: C4D Animation Take
+      internalID: 0
       firstFrame: 214
       lastFrame: 249
       wrapMode: 2
@@ -519,10 +826,10 @@ ModelImporter:
       hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 0
-      loopBlendOrientation: 0
+      loopBlendOrientation: 1
       loopBlendPositionY: 1
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
       keepOriginalPositionY: 0
       keepOriginalPositionXZ: 0
       heightFromFeet: 1
@@ -669,6 +976,7 @@ ModelImporter:
     - serializedVersion: 16
       name: fall
       takeName: C4D Animation Take
+      internalID: 0
       firstFrame: 251
       lastFrame: 269
       wrapMode: 0
@@ -829,6 +1137,7 @@ ModelImporter:
     - serializedVersion: 16
       name: die
       takeName: C4D Animation Take
+      internalID: 0
       firstFrame: 271
       lastFrame: 288
       wrapMode: 0
@@ -989,6 +1298,7 @@ ModelImporter:
     - serializedVersion: 16
       name: gothit
       takeName: C4D Animation Take
+      internalID: 0
       firstFrame: 290
       lastFrame: 305
       wrapMode: 2
@@ -1152,32 +1462,49 @@ ModelImporter:
     globalScale: 0.01
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
     importVisibility: 0
     importBlendShapes: 1
     importCameras: 0
     importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 0
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 4
     normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human:
     - boneName: hip
       humanName: Hips
@@ -1749,14 +2076,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
