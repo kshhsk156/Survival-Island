@@ -12,9 +12,16 @@ public class ZombieDamage : MonoBehaviour
     private Animator anim;
     private bool isJumping = false;
     private readonly int hashJump = Animator.StringToHash("IsJump_T");
+    private readonly int hashHit = Animator.StringToHash("IsHit_T");
+    private readonly int hashDie = Animator.StringToHash("IsDie_T");
+    private readonly string bulletTag = "BULLET";
+    private int hp;
+    private int maxHp = 100; 
     private NavMeshAgent agent;
+    public bool isDie = false;
     void Start()
     {
+        hp = maxHp;
         rb = GetComponent<Rigidbody>();
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
@@ -27,7 +34,30 @@ public class ZombieDamage : MonoBehaviour
             rb.isKinematic = true; // 물리 효과 해제
           
         }
+       else if(col.gameObject.CompareTag(bulletTag))
+        {
+            anim.SetTrigger(hashHit); 
+            Destroy(col.gameObject); // 총알 오브젝트를 파괴
+            hp -= 25;
+            
+            hp = Mathf.Clamp(hp,0, maxHp); // 체력을 0과 최대 체력 사이로 제한 
+           
+        }
+       if(hp<=0)
+        {
+            Die();
+        }
     }
+
+    private void Die()
+    {
+        isDie = true;
+        Destroy(gameObject, 10f);
+        anim.SetTrigger(hashDie);   
+        GetComponent<CapsuleCollider>().enabled = false;
+        GetComponent<Rigidbody>().isKinematic = true;
+    }
+
     private void OnCollisionExit(Collision col) // 콜백 함수 스스로 호출된다
     {
         if (col.gameObject.CompareTag(playertag))

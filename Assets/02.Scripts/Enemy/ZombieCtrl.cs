@@ -15,6 +15,7 @@ public class ZombieCtrl : MonoBehaviour
     [SerializeField] private NavMeshAgent navi;
     [SerializeField] private Animator animator;
     [SerializeField] private Transform zombieTr;
+    [SerializeField] private ZombieDamage Z_damage;
     public float rotSpeed = 30f;
     public Transform playerTr;
 
@@ -28,6 +29,7 @@ public class ZombieCtrl : MonoBehaviour
 
     void Start()
     {
+        Z_damage = GetComponent<ZombieDamage>();
         navi = GetComponent<NavMeshAgent>();
         playerTr = GameObject.FindWithTag("Player").transform; // 하이어라키에서 Player라는 태그를 가진 오브젝트의 트랜스폼을 가져옴 
         animator = GetComponent<Animator>();
@@ -37,6 +39,11 @@ public class ZombieCtrl : MonoBehaviour
     
     void Update()
     {
+        if ((Z_damage.isDie)) // 좀비가 죽었을때
+        {
+            return; // 업데이트 종료
+        }
+       
         float dist = Vector3.Distance(zombieTr.position,playerTr.position);
         //float dist = (playerTr.position - zombieTr.position).magnitude; // 벡터의 크기(거리)를 구함 (타겟 위치 - 자기자신)
         if (dist <= attackDist) // 공격중일 때
@@ -51,6 +58,7 @@ public class ZombieCtrl : MonoBehaviour
         {
             PlayerIdle();
         }
+       
     }
 
     private void PlayerIdle()
