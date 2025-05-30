@@ -14,7 +14,6 @@ public class SkeletonCtrl : MonoBehaviour
     [SerializeField] private float attackDis = 3f;
     [SerializeField] private float traceDis = 20.0f;
 
-    
     private readonly int hashAttack = Animator.StringToHash("IsAttack_B");
     private readonly int hashTrace = Animator.StringToHash("IsTrace_B");
 

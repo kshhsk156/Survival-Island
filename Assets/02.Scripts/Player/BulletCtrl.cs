@@ -12,7 +12,6 @@ public class BulletCtrl : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         rb.AddForce(transform.forward * speed);
+        Destroy(this.gameObject, 3f);
     }
-
-    
 }
