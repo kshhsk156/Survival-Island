@@ -26,6 +26,13 @@ public class ZombieDamage : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         anim = GetComponent<Animator>();
     }
+    void Update()
+    {
+        if (isJumping && agent.isOnOffMeshLink)
+        {
+            StartCoroutine(EnemyJump()); // 점프 코루틴 시작
+        }
+    }
     private void OnCollisionEnter(Collision col) // 콜백 함수 스스로 호출된다
     {
        if(col.gameObject.CompareTag(playertag))
@@ -37,7 +44,7 @@ public class ZombieDamage : MonoBehaviour
        else if(col.gameObject.CompareTag(bulletTag))
         {
             anim.SetTrigger(hashHit); 
-            Destroy(col.gameObject); // 총알 오브젝트를 파괴
+            Destroy(col.gameObject); 
             hp -= 25;
             
             hp = Mathf.Clamp(hp,0, maxHp); // 체력을 0과 최대 체력 사이로 제한 
@@ -76,13 +83,6 @@ public class ZombieDamage : MonoBehaviour
         }
     }
 
-    void Update()
-    {
-        if(isJumping && agent.isOnOffMeshLink)
-        {
-            StartCoroutine(EnemyJump()); // 점프 코루틴 시작
-        }
-    }
     IEnumerator EnemyJump()
     {
         AnimatorClipInfo[] clipInfos = anim.GetCurrentAnimatorClipInfo(0); // 기본 인덱스 레이어 

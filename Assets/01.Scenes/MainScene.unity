@@ -1287,6 +1287,7 @@ MonoBehaviour:
   navi: {fileID: 0}
   animator: {fileID: 0}
   zombieTr: {fileID: 0}
+  Z_damage: {fileID: 0}
   rotSpeed: 30
   playerTr: {fileID: 0}
   traceDist: 20
@@ -1353,6 +1354,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f248637a3612ce4984c3c7f2b366262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isDie: 0
 --- !u!1 &657716590
 GameObject:
   m_ObjectHideFlags: 0
